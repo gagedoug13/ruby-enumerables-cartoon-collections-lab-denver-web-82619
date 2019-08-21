@@ -7,7 +7,7 @@ end
 def summon_captain_planet(planeteer_calls)
   new_array = []
   new_array.each do {|calls|}
-  new_array<<(`#{calls.capitalize}!`)
+  new_array << "#{calls.capitalize}!"
 end
   p new_array
 end
