@@ -19,5 +19,5 @@ end
 end
 
 def find_the_cheese(array)
-  p "cheddar"
+  
 end
